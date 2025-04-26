@@ -1,0 +1,39 @@
+* {
+    font-family: sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: green;
+}
+
+.description {
+    font-size: 18px;
+    background: gray;
+    padding: 6px;
+}
+
+.bird {
+    width: 200px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.row > .description {
+    color: blue;
+    font-weight: bold;
+}
+
+.description:hover {
+    background: lightcoral
+}
+
+
+
